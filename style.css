@@ -1,0 +1,234 @@
+
+body,
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+body{
+    background-color: white;
+    position: relative;
+    padding-bottom: 3em;
+    min-height: 100vh;
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+a:hover {
+    color: #30ff00;
+}
+
+#logo{
+border: 0;
+margin-left: 10%;
+}
+#logo img{
+    max-width: 50px;
+}
+
+#header {
+  box-sizing: border-box;
+  height: 70px;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #340064;
+}
+
+#menu {
+  display: flex;
+  list-style: none;
+  gap: 0.5rem;
+}
+
+#menu a {
+  display: block;
+  padding: 0.5rem;
+}
+
+#btn-mobile {
+  display: none;
+}
+/*Noticias*/
+.titulo-ultimas-noticias{color:#340064;display:flex;margin-left: 8%;margin-top: 3%;}
+.ultimas-noticias{display: flex; gap: 10px; width: 85%;margin: 0 auto;padding-top: 15px;border-top: 7px solid black;margin-bottom: 200px;}
+.noticia1,.noticia2,.noticia3,.noticia4{width: 21,25%;}
+.noticia1 img,.noticia2 img,.noticia3 img,.noticia4 img{width: 100%;height:200px;}
+.ultimas-noticias h4{color:red;}
+/*Fecha Noticias*/
+/*Senna*/
+.hall-sennat6-background{background-image: url(imagens/background-hall.jpg);background-position: center;background-size: cover;background-repeat: no-repeat;}
+.hall-sennat6{width: 80%; margin: 0 auto;display: flex;gap:10px;justify-content: center;padding-bottom: 20px;}
+.titulo-hall-sennat6 h1{color:white;text-align: center;display: block;width: 100%;margin-top:0px;padding-top: 35px;}
+.driver-rank-2{width: 22%;}
+.driver-rank-1{width: 25%;}
+.driver-rank-3{width: 22%;}
+.driver-image-2{width: 100%;margin-top: 17%;}
+.driver-image-1{width: 100%;}
+.driver-image-3{width: 100%;margin-top: 17%}
+.pilotos-senna{
+    width: 57.5%;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+.pilotos-senna li{
+    list-style-type: none;
+}
+.senna{padding: 10px;border-radius:5px;width: 100%; margin-top: 10px;display: flex;gap: 10px;}
+.senna:hover{color: white;cursor: pointer;background-color: black;}
+.senna-10{padding: 10px;border-radius:5px;width: 100%; margin-top: 10px;display: flex;gap: 6px;}
+.senna-10:hover{color: white;cursor: pointer;background-color: black;}
+.team-haas-ico{background-color: gray;color: gray;}
+.team-haas-ico-williams{background-color: rgb(27, 110, 245);color: rgb(27, 110, 245);}
+.team-haas-ico-romeo{background-color: rgb(146, 1, 1);color: rgb(146, 1, 1);}
+.team-haas-ico-martin{background-color: rgb(16, 139, 74);color:rgb(16, 139, 74);}
+.team-haas-ico-alpine{background-color: rgb(31, 63, 170);color: rgb(31, 63, 170);}
+.equipe{color:gray;font-size: 13px;}
+.pontos-direita {
+  margin-left: auto;
+}
+.nome-do-piloto-10{margin-left: 5px;}
+.classificacao-titulo{text-align: center;color: #340064;}
+/*FIM da Senna*/
+.rodape{
+  color: white;
+  background-color:#340064;;
+  width: 100%;
+  padding: 4px 0;
+  gap: 20px;
+  position: absolute;
+  bottom: 0;
+}
+.logo-titulo-rodape{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+}
+.logo-rodape img{
+  max-width: 60px;
+   text-align: center;
+  }
+  .painel-footer{
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+    list-style-type: none;
+  }
+  .painel-footer span{
+    font-size: 22px;
+  }
+@media screen and (max-width: 768px) {
+  #menu {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 70px;
+    right: 0px;
+    background-color: #0971bb;
+    transition: 0.6s;
+    z-index: 1000;
+    height: 0px;
+    visibility: hidden;
+    overflow-y: hidden;
+  }
+  #nav.active #menu {
+    height: calc(100vh - 70px);
+    visibility: visible;
+    overflow-y: auto;
+  }
+  #menu a {
+    padding: 1rem 0;
+    margin: 0 1rem;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+  }
+  #btn-mobile {
+    display: flex;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    gap: 0.5rem;
+  }
+  #hamburger {
+    border-top: 2px solid;
+    width: 20px;
+  }
+  #hamburger::after,
+  #hamburger::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: currentColor;
+    margin-top: 5px;
+    transition: 0.3s;
+    position: relative;
+  }
+  #nav.active #hamburger {
+    border-top-color: transparent;
+  }
+  #nav.active #hamburger::before {
+    transform: rotate(135deg);
+  }
+  #nav.active #hamburger::after {
+    transform: rotate(-135deg);
+    top: -7px;
+  }
+  .rodape h1{
+      font-size: 14px;
+  }
+  .rodape img{
+    height: 46px ;
+    padding-top: 5px;
+} 
+#logo{
+    border: 0;
+    margin-left: 3%;
+    }
+.pagina-inicial h1{
+    font-size: 26px;
+}
+.comunidade{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.comunidade img{
+    width: 90%;
+}
+.charr{display: none;}
+
+.materias{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ciencias-humanas{
+  width: 100%;
+}
+.ciencias-da-natureza{
+  width: 100%;
+}
+.ciencias-humanas{
+  width: 100%;
+}
+.linguagens{
+  width: 100%;
+}
+.matematica{
+  width: 100%;
+}
+.redacao{
+  width: 100%;
+}
+}/*media*/
+
