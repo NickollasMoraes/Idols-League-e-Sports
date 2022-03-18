@@ -123,6 +123,7 @@ margin-left: 10%;
     font-size: 22px;
   }
 @media screen and (max-width: 768px) {
+  /*CELULAR*/
   #menu {
     display: block;
     position: absolute;
@@ -191,44 +192,24 @@ margin-left: 10%;
     border: 0;
     margin-left: 3%;
     }
-.pagina-inicial h1{
-    font-size: 26px;
-}
-.comunidade{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    flex-direction: column;
-}
-.comunidade img{
-    width: 90%;
-}
-.charr{display: none;}
 
-.materias{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
 
-.ciencias-humanas{
-  width: 100%;
-}
-.ciencias-da-natureza{
-  width: 100%;
-}
-.ciencias-humanas{
-  width: 100%;
-}
-.linguagens{
-  width: 100%;
-}
-.matematica{
-  width: 100%;
-}
-.redacao{
-  width: 100%;
-}
+
 }/*media*/
 
+@media screen and (max-width: 1100px){
+
+.titulo-ultimas-noticias{color:#340064;display:flex;margin-left: 8%;margin-top: 3%;}
+.ultimas-noticias{display: flex; gap: 10px; width: 85%;margin: 0 auto;padding-top: 15px;border-top: 7px solid black;margin-bottom: 200px;}
+.noticia1,.noticia2,.noticia3{width: 33.33%;}
+.noticia1 img,.noticia2 img,.noticia3 img{width: 100%;height:200px;}
+.noticia4{display: none;}
+}
+@media screen and (max-width: 830px){
+
+  .titulo-ultimas-noticias{color:#340064;display:flex;margin-left: 8%;margin-top: 3%;}
+  .ultimas-noticias{display: flex; gap: 10px; width: 85%;margin: 0 auto;padding-top: 15px;border-top: 7px solid black;margin-bottom: 200px;}
+  .noticia1,.noticia2{width: 50%;}
+  .noticia1 img,.noticia2 img{width: 100%;height:200px;}
+  .noticia4,.noticia3{display: none;}
+  }
