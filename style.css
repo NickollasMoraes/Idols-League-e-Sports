@@ -58,8 +58,10 @@ margin-left: 10%;
 .noticia1,.noticia2,.noticia3,.noticia4{width: 21,25%;}
 .noticia1 img,.noticia2 img,.noticia3 img,.noticia4 img{width: 100%;height:200px;}
 .ultimas-noticias h4{color:red;}
+.ver-mais-noticiais{color: #340064;text-align: center;margin-bottom: 120px;}
+.ver-mais-noticiais a{padding: 15px;background-color: #340064;border-radius: 16px;display: inline-flex;}
 /*Fecha Noticias*/
-/*Senna*/
+/*Hall Senna*/
 .hall-sennat6-background{background-image: url(imagens/background-hall.jpg);background-position: center;background-size: cover;background-repeat: no-repeat;}
 .hall-sennat6{width: 80%; margin: 0 auto;display: flex;gap:10px;justify-content: center;padding-bottom: 20px;}
 .titulo-hall-sennat6 h1{color:white;text-align: center;display: block;width: 100%;margin-top:0px;padding-top: 35px;}
@@ -69,6 +71,8 @@ margin-left: 10%;
 .driver-image-2{width: 100%;margin-top: 17%;}
 .driver-image-1{width: 100%;}
 .driver-image-3{width: 100%;margin-top: 17%}
+/*Fim Hall Senna*/
+/*Inicio Classificação Senna*/
 .pilotos-senna{
     width: 57.5%;
     margin: 0 auto;
@@ -87,12 +91,12 @@ margin-left: 10%;
 .team-haas-ico-martin{background-color: rgb(16, 139, 74);color:rgb(16, 139, 74);}
 .team-haas-ico-alpine{background-color: rgb(31, 63, 170);color: rgb(31, 63, 170);}
 .equipe{color:gray;font-size: 13px;}
-.pontos-direita {
-  margin-left: auto;
-}
+.pontos-direita {margin-left: auto;}
 .nome-do-piloto-10{margin-left: 5px;}
 .classificacao-titulo{text-align: center;color: #340064;}
-/*FIM da Senna*/
+/*FIM da Classificação daa Senna*/
+
+/*Inicio rodape*/
 .rodape{
   color: white;
   background-color:#340064;;
@@ -103,6 +107,7 @@ margin-left: 10%;
   bottom: 0;
 }
 .logo-titulo-rodape{
+  padding: 3px;
   display:flex;
   justify-content: center;
   align-items: center;
@@ -118,12 +123,14 @@ margin-left: 10%;
     justify-content: center;
     gap: 20%;
     list-style-type: none;
+    margin-top: 10px;
   }
   .painel-footer span{
     font-size: 22px;
   }
-  .ver-mais-noticiais{color: #340064;text-align: center;margin-bottom: 120px;}
-  .ver-mais-noticiais a{padding: 15px;background-color: #340064;border-radius: 16px;display: inline-flex;}
+  .pagina-footer{margin-top: 4px;}
+
+/*Fim do rodape*/
 @media screen and (max-width: 768px) {
   /*CELULAR*/
   #menu {
@@ -213,4 +220,9 @@ margin-left: 10%;
     .noticia1{width: 100%;}
     .noticia1 img{width: 100%;height:200px;}
     .noticia2,.noticia4,.noticia3{display: none;}
+    .pilotos-senna{width: 80%;}
+
     }
+    @media screen and (max-width: 500px){
+      .pilotos-senna li{font-size: 14px;}
+      }
