@@ -272,7 +272,7 @@ margin-left: 10%;
       .info-senna,.info-lauda{font-size: 10px;}
       .todas-noticias-titulo{font-size: 24px;}
       }
-      @media screen and (max-width: 350px){
+      @media screen and (max-width: 420px){
         .todas-noticias{width: 95%}
         .thumb img{height: 100%;width: 100%;}
         .thumb{height: 70px;width: 150px;}
