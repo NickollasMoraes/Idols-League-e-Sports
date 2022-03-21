@@ -245,6 +245,7 @@ margin-left: 10%;
 .thumb{height: 200px;}
 .todos-texto{margin-left: 5px;width: 100%;}
 .todos-texto h1{font-size: 20px;}
+.todos-texto a{font-size: 20px;color: black;}
 .todos-texto p{color: gray;}
 .info-senna{color:#30ff00}
 .info-lauda{color:#066db1}
@@ -266,7 +267,7 @@ margin-left: 10%;
       .todas-noticias{width: 95%}
       .thumb img{height: 100%;width: 100%;}
       .thumb{height: 110px;width: 160px;}
-      .noticia{height: 110px;}
+      .noticia{height: 110px;gap: 6px;}
       .todos-texto h1{font-size: 12px;}
       .todos-texto p{font-size: 10px;}
       .info-senna,.info-lauda{font-size: 10px;}
@@ -276,7 +277,7 @@ margin-left: 10%;
         .todas-noticias{width: 95%}
         .thumb img{height: 100%;width: 100%;}
         .thumb{height: 70px;width: 150px;}
-        .noticia{height: 70px;}
+        .noticia{height: 70px;gap: 4px;}
         .todos-texto h1{font-size: 7px;}
         .todos-texto p{font-size: 6px;}
         .info-senna,.info-lauda{font-size: 5px;}
