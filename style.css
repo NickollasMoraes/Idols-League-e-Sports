@@ -1,4 +1,5 @@
 
+
 body,
 ul {
   margin: 0px;
@@ -230,5 +231,20 @@ margin-left: 10%;
     .pilotos-senna{width: 85%;}
     .pilotos-senna li{font-size: 11px;}
     .equipe{font-size: 7px;}
+    .classificacao-titulo {font-size: 18px;}
   }
 
+/*Fecha Media SENNA*/
+
+
+/*Inicio Mais noticias*/
+.todas-noticias-titulo{display: block;color: #340064;text-align: center;}
+.todas-noticias{width: 85%;margin: 0 auto;margin-bottom: 200px;}
+.noticia{display:flex;height: 200px;gap: 10px;margin-bottom: 10px;}
+.thumb img{height: 200px;width: 300px;}
+.thumb{height: 200px;}
+.todos-texto{margin-left: 5px;width: 100%;}
+.todos-texto h1{font-size: 20px;}
+.todos-texto p{color: gray;}
+.info-senna{color:#30ff00}
+.info-lauda{color:#066db1}
