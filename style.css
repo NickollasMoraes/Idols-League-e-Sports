@@ -240,7 +240,7 @@ margin-left: 10%;
 /*Inicio Mais noticias*/
 .todas-noticias-titulo{display: block;color: #340064;text-align: center;}
 .todas-noticias{width: 85%;margin: 0 auto;margin-bottom: 200px;}
-.noticia{display:flex;height: 200px;gap: 10px;margin-bottom: 10px;}
+.noticia{display:flex;height: 200px;gap: 10px;margin-bottom: 10px;cursor: pointer;}
 .thumb img{height: 200px;width: 300px;}
 .thumb{height: 200px;}
 .todos-texto{margin-left: 5px;width: 100%;}
