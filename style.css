@@ -248,3 +248,37 @@ margin-left: 10%;
 .todos-texto p{color: gray;}
 .info-senna{color:#30ff00}
 .info-lauda{color:#066db1}
+/*Fim das Mais noticias*/
+/*Media mais noticias*/
+@media screen and (max-width: 950px){
+  .todas-noticias{width: 90%}
+  }
+  @media screen and (max-width: 850px){
+    .todas-noticias{width: 95%}
+    .thumb img{height: 100%;width: 100%;}
+    .thumb{height: 150px;width: 200px;}
+    .noticia{height: 150px;}
+    .todos-texto h1{font-size: 15px;}
+    .todos-texto p{font-size: 14px;}
+    .info-senna,.info-lauda{font-size: 12px;}
+    }
+    @media screen and (max-width: 600px){
+      .todas-noticias{width: 95%}
+      .thumb img{height: 100%;width: 100%;}
+      .thumb{height: 110px;width: 160px;}
+      .noticia{height: 110px;}
+      .todos-texto h1{font-size: 12px;}
+      .todos-texto p{font-size: 10px;}
+      .info-senna,.info-lauda{font-size: 10px;}
+      .todas-noticias-titulo{font-size: 24px;}
+      }
+      @media screen and (max-width: 350px){
+        .todas-noticias{width: 95%}
+        .thumb img{height: 100%;width: 100%;}
+        .thumb{height: 70px;width: 150px;}
+        .noticia{height: 70px;}
+        .todos-texto h1{font-size: 9px;}
+        .todos-texto p{font-size: 6px;}
+        .info-senna,.info-lauda{font-size: 8px;}
+        .todas-noticias-titulo{font-size: 16px;}
+        }
