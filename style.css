@@ -283,3 +283,11 @@ margin-left: 10%;
         .info-senna,.info-lauda{font-size: 5px;}
         .todas-noticias-titulo{font-size: 16px;}
         }
+/*Fecha Media mais noticias*/
+
+/*Abre o Regulamento*/
+.regulamento h1{text-align: center;color: #340064;font-size: 26px;}
+.regulamento{width: 90%;margin: 0 auto;margin-bottom: 300px;}
+.regulamento h4{font-size: 20px;font-weight:200;}
+.regulamento h2{background-color: yellow;display: inline-block;}
+/*Fecha o Regulamento*/
