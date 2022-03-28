@@ -7,8 +7,10 @@
   <title>Idols League e-Sports</title>
   <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="style.css">
+  
 </head>
 <body>
+
   <header id="header">
     <a id="logo" href="index.html"><img src="imagens/logo.png" alt=""></a>
     <nav id="nav">
@@ -24,7 +26,7 @@
     </nav>
   </header>
 <main class="form-f2-body">
-    <h1 class="cadastro-titulo">Cadrastro Grid Fórmula 2</h1>
+    <h1 class="cadastro-titulo">Cadastro Grid Fórmula 2</h1>
     <section class="cadastro">
         <div class="manual-f2">
             <h2 class="manual-h2-f2">Plataforma: PS4/PS5</h2>
@@ -39,24 +41,24 @@
             <h2 class="manual-h2-f2">Pilotos no Grid: 20 (vinte)</h2>
             <h2 class="manual-h2-f2">Assistências ligadas, exceto BOX</h2>
             <h2 class="manual-h2-f2">Premiação (?)</h2>
-            <h2 class="manual-h2-f2">Previsão do início: 04/04/2022 ​</h2>
+            <h2 class="manual-h2-f2">Previsão do início: 04/04/2022​</h2>
         </div>
         <div class="formf2-bg">
-          <form id="formulariof2">
-            <span class="span-form-f2">Nome e Sobrenome</span> <br>
-            <input class="input" type="text" name="" id="nome" placeholder="Seu Nome"> <br>
-            ID - PSN <br>
-            <input class="input" type="text" name="" id="id-psn" placeholder="Seu ID-PSN"> <br>
-            Telefone<br>
-            <input class="input" type="text" name="" id="telefone" placeholder="WhatsApp"> <br>
-            Estado<br>
-            <input class="input" type="text" name="" id="estado" placeholder="Seu Estado"> <br>
-            Dispotivo?<br>
-            <input class="input" type="text" name="" id="dispositivo" placeholder="Volante ou Controle"> <br>
-            <br>
-            <input class="increver-se" type="button" value="Inscrever-se"><br>
-            <br>
-        </form>
+          <form id="formulariof2" action="https://formsubmit.co/idolleague2020@gmail.com" method="POST">
+            <label for="name">Nome</label>
+            <input type="text" name="Nome"  placeholder="Seu  Nome" id="name" required><br>
+            <label for="email">Email</label>
+            <input type="email" name="Email" placeholder="Seu Email" id="email" required><br>
+            <label for="id-psn ">ID-PSN</label>
+            <input type="text" name="ID-PSN" placeholder="Seu ID-PSN" required><br>
+            <label for="dispositvo">Dispositvo</label>
+            <input type="text" name="Dispositvo" placeholder="Controle ou Volante?" id="dispositivo" required><br>
+            <label for="dispositvo">Estado</label>
+            <input type="text" name="Estado" placeholder="Estado" id="estado" required><br>
+            <label for="dispositvo">Telefone</label>
+            <input type="number" name="Telefone" placeholder="WhatsApp" id="dispositivo" required><br>
+            <button id="increver-se" type="submit">Inscrever-se</button>
+       </form>
         </div>
         <div class="formas-de-pagamento"> 
             <h2 class="formas-de-pagamento-h2">Formas de Pagamento:</h2>
@@ -74,9 +76,6 @@
               <h2 class="formas-de-pagamento-h2" >Obs.: Enviar comprovante para Pablo (+55 54 8444-2095)</h2>
               </section>
         </div>
-<div class="pilotos-f2">
-  <a href="pilotos-f2.html">Lista de Pilotos já inscritos!</a>
-</div>
 </main>
   <footer class="rodape">
     <div class="logo-titulo-rodape">
@@ -97,6 +96,8 @@
     </section>
 </footer>
   <script src="javascript/menu.js"></script>
+
 </body>
+
 
 </html>
