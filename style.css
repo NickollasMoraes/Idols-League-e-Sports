@@ -313,3 +313,9 @@ input{border-radius: 20px;width: 45%;background-color: rgba(255, 255, 255, 0.685
   .enviar-comprovante{margin-left: 3%;font-size: 15px}
   label{width: 100%;display: inline-block;margin: 8px 0px;}
 /*Fecha inscrição F2*/
+/*Media Inscrição F2 */
+@media screen and (max-width: 950px){
+  .todas-noticias{width: 90%}
+  }
+
+/*Fecha Media inscricao f2*/
