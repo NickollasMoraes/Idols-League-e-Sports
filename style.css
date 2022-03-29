@@ -295,7 +295,7 @@ margin-left: 10%;
 /*Fecha o Regulamento*/
 /*Abre inscrição F2*/
 .cadastro{display: flex;padding-bottom: 200px;}
-.cadastro-titulo{margin-top: 0px;padding: 10px;}
+.cadastro-titulo{margin-top: 0px;padding-top: 30px;}
 .manual-f2{width: 25%;margin: 0 auto;background-color: #3194d6;border-radius: 20px;text-align: left;box-sizing: border-box;padding-left: 5%;}
 .manual-h2-f2{font-size: 17px;}
 #formulariof2{margin: 0 auto;font-size: 20px;margin-top:10px;}
@@ -324,5 +324,6 @@ input{border-radius: 20px;width: 45%;background-color: rgba(255, 255, 255, 0.685
   .formf2-bg{width: 100%;}
   .formas-de-pagamento-img{width: 25%;text-align: left;margin-left: -57%;}
   .enviar-comprovante{margin-left: -25%;font-size: 15px}
+  .cadastro-titulo{font-size: 20px;padding-top: 20px;}
 }
 /*Fecha Media inscricao f2*/
