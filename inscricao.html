@@ -57,8 +57,11 @@
             <input type="text" name="Estado" placeholder="Estado" id="estado" required><br>
             <label for="dispositvo">Telefone</label>
             <input type="number" name="Telefone" placeholder="WhatsApp" id="dispositivo" required><br>
-            <button id="increver-se" type="submit">Inscrever-se</button>
-       </form>
+            <button id="increver-se" type="submit" onclick="alerta()" value="Exibir Alert" >Inscrever-se</button>
+            <input type="hidden" name="_next" value="https://nickollasmoraes.github.io/Idols-League-e-Sports/index.html">
+            <input type="hidden" name="_autoresponse" value="Obrigado pela sua incrição no Grid F2! Não esqueça de enviar o comprovante do pagamento!">
+            <input type="hidden" name="_template" value="table">
+          </form>
         </div>
         <div class="formas-de-pagamento"> 
             <h2 class="formas-de-pagamento-h2">Formas de Pagamento:</h2>
@@ -86,6 +89,8 @@
       <div class="paginas-patrocinio">
         <li class="pagina-footer"><span><strong>Páginas</strong></span></a></li>
         <li class="pagina-footer"><a href="senna.html">Senna</a></li>
+        <li class="pagina-footer"><a href="regulamento.html">Regulamento</a></li>
+        <li class="pagina-footer"><a href="inscricao.html">Inscrição</a></li>
       </ul>
       </div>
       <div class="paginas-patrocinio"> 
@@ -96,7 +101,12 @@
     </section>
 </footer>
   <script src="javascript/menu.js"></script>
-
+  <script>
+    function alerta()
+    {
+    alert("Obrigado pela sua incrição - Envie o seu comprovante de pagamento pelo WhatsApp!");
+    }
+    </script>
 </body>
 
 
