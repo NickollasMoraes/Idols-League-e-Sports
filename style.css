@@ -75,9 +75,9 @@ margin-left: 10%;
 /*Fim Hall Senna*/
 /*Inicio Classificação Senna*/
 .pilotos-senna{
-    width: 57.5%;
-    margin: 0 auto;
-    margin-bottom: 120px;
+  width: 57.5%;
+  margin: 0 auto;
+  margin-bottom: 160px;
 }
 .pilotos-senna li{
     list-style-type: none;
@@ -223,6 +223,9 @@ margin-left: 10%;
     .noticia2,.noticia4,.noticia3{display: none;}
     .pilotos-senna{width: 80%;}
     .pilotos-senna li{font-size: 14px;}
+    .pilotos-senna{
+      margin-bottom: 120px;
+  }
   }
   @media screen and (max-width: 450px){
     .noticia1{width: 100%;}
